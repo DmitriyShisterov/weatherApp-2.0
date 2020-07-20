@@ -1,4 +1,3 @@
-// task 1 --------------------
 
 function getWeather() {
     let location = document.querySelector('#location').value;
