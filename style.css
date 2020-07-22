@@ -84,7 +84,6 @@ input#location {
   display:flex;
   flex-direction: column;
   padding: 0px 0px 0 0px;
-  background-image: url(../../src/img/bgColors.png);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
