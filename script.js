@@ -1,8 +1,7 @@
-// task 1 --------------------
 
 function getWeather() {
     let location = document.querySelector('#location').value;
-    let url = 'http://api.openweathermap.org/data/2.5/weather?q=' + location + '&units=metric&APPID=59e7c0c9a88558a8a5b57ba14b01a5ed&';
+    let url = 'https://api.openweathermap.org/data/2.5/weather?q=' + location + '&units=metric&APPID=59e7c0c9a88558a8a5b57ba14b01a5ed&';
     let weather = {};
     fetch(url)
         .then(function (resp) {
@@ -26,7 +25,7 @@ function getWeather() {
 }
 function getForecast() {
     let location = document.querySelector('#location').value;
-    let url = 'http://api.openweathermap.org/data/2.5/forecast?q=' + location + '&units=metric&APPID=aa9996e5ab8f98c899989aa3109cddd5';
+    let url = 'https://api.openweathermap.org/data/2.5/forecast?q=' + location + '&units=metric&APPID=aa9996e5ab8f98c899989aa3109cddd5';
     let foreCast = [];
     fetch(url)
         .then(function (resp) {
